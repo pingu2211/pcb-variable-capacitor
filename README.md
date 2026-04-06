@@ -34,8 +34,14 @@ The PCB's are designed with interleaving fingers that can be rotated to change t
 
 
 ## Images
+### Front and Rear Plate
+
 ![Front and Rear Plate](front_rear_plate.png)
+
+### Plate
 ![Plate](plate.png)
+### Rotor
 ![Rotor](rotor.png)
+### Spacers
 ![Spacers](spacers.png)
 
