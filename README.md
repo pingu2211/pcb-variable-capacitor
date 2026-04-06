@@ -12,17 +12,31 @@ Based on Air Variable Capacitor, the design consists of multiple PCB's stacked t
 The PCB's are designed with interleaving fingers that can be rotated to change the capacitance. 
 
 
-## BOM
+## General BOM
+### PCB's
 - 2 `front_rear_panel` PCB's 
-- 1 or more `rotor` PCB's
-- 1 or more `plate` PCB's
-- 1 spacer PCB per plate PCB + 2 spacer PCB's per rotor PCB
-- 5x M3 screws
-- 10x M3 nuts
+- 1 or more `rotor` PCB's (see theoretical capacitance table below)
+- 1 or more `plate` PCB's (see theoretical capacitance table below)
+- 1 `spacer` PCB per plate PCB
+- 2 `spacer` PCB's per rotor PCB
+### Other Components
+- 2 M3 spring washers
+- 4 M3 x 40mm screws (for 5 rotor and 6 plate, 1mm spaced configuration, adjust accordingly for different configurations)
+- 1 M3 threaded rod 
+- 10 M3 nuts
+- 2 M3 flat, or lock washers per spacer PCB
+### Assembly Tools
+- spanner or socket to fit your M3 screws and nuts
 - solder paste and hot air gun (Optional)
 
+## Construction
+### Rotor Assembly
+Use the theoretical capacitance table to determine the number of rotor and plate PCB's needed for your desired capacitance range. For example, if you want a maximum capacitance of around 50 pF, you can use 2 rotor PCB's and 3 plate PCB's.
 
-## Capacitance
+
+## Theoretical Capacitance
+
+The following table shows the theoretical capacitance values for different configurations of rotors and plates, both without additional spacers and with 1.0 mm additional spacers.
 
 | Rotors | Plates | Max C, No Additional Spacers | Max C @ 1.0 mm additional spacers |
 | -----: | -----: | ------------------: | -----------------: |
